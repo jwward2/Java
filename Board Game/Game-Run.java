@@ -1,0 +1,23 @@
+/*
+ * Description: This is the driver class which contains the main method. In main, a GameBoard object
+ * is instantiated, and the play method is called which should run
+ * through the game.
+ */
+
+public class Game-Run {
+
+	/**
+	 * The main method which is the starting point of our program.
+	 *
+	 * @param args External arguments to main.
+	 */
+	public static void main(String[] args)
+	{
+		// Instantiate an object of type GameBoard and set the number
+		// of spaces to 30. Then call the play method to automatically
+		// run through the game.
+		GameBoard game = new GameBoard(30);
+		game.play();
+
+	}
+}

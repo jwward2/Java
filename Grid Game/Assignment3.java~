@@ -1,0 +1,13 @@
+/*
+ * Description: This assignment will make a visual representation of a moving point
+ */
+
+public class Assignment3
+{
+	public static void main(String[] args)
+	{
+		Grid grid = new Grid();
+		grid.run();
+
+	}
+}
